@@ -2,7 +2,7 @@
   "name": "testing-app",
   "private": true,
   "scripts": {
-    "build": "react-router build",
+    "build": "prisma generate && react-router build",
     "dev": "cross-env NODE_OPTIONS=\"--dns-result-order=ipv4first\" shopify app dev",
     "config:link": "shopify app config link",
     "generate": "shopify app generate",
